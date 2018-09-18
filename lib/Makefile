@@ -9,6 +9,12 @@ OBJECTS=gpio.o led-matrix.o options-initialize.o framebuffer.o \
 
 TARGET=librgbmatrix
 
+CC=arm-linux-gcc
+CCX=arm-linux-g++
+AR=arm-linux-ar
+
+
+
 # There are several different pinouts for various breakout boards that uses
 # this library. If you are using the described pinout in the toplevel README.md
 # or the standard active-3 breakout board, then 'regular' is the one you'd like
