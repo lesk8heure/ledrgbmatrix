@@ -26,8 +26,6 @@ $(RGB_LIBRARY): FORCE
 demo : demo-main.o $(RGB_LIBRARY)
 	$(CXX) $< -o $@ $(LDFLAGS)
 
-ledrgbmatrix : ledrgbmatrix.o
-
 # All the binaries that have the same name as the object file.q
 % : %.o $(RGB_LIBRARY)
 	$(CXX) $< -o $@ $(LDFLAGS)
