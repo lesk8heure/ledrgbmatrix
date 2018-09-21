@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LEDRGBMATRIX
+     bool "ledrgbmatrix"
+     help 
+       talk to Romain and Thierry
