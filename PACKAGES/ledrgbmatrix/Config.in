@@ -1,4 +1,5 @@
 config BR2_PACKAGE_LEDRGBMATRIX
      bool "ledrgbmatrix"
      help 
-       talk to Romain and Thierry
+       This file declare the LEDRGBMATRIX to buildroot.
+       If any problems please contact : rom.laplace@gmail.com
